@@ -132,4 +132,4 @@ Picgo下载链接：[官网](https://molunerfinn.com/PicGo/)
 
 3. 设置"复制到指定路径" --> 路径设置为X:\AAA\BBB\CCC\\${filename}
 
-   ![image-20210731182249502](../../assets/Typora+Github配置ssh/image-20210731182249502.png)
+   ![image-20210731182249502](https://cdn.jsdelivr.net/gh/Wutpeach/Notes/pic/image-20210731182249502.png)
