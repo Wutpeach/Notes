@@ -14,15 +14,15 @@
 
 | **Gamma** |  |
 | :---: | --- |
-| **Not a Color** | 主要用于Roughness和Specular材料阶段，因为纹理的使用不需要任何Gamma转换，这些纹理通常是灰度的。使用这个选项加载的纹理将不会被触及或在内部转换为任何其他色彩空间，这在使用HDR-Render模式时非常重要。 |
-| **sRGB** | 定义了在sRGB色彩空间中使用纹理，这是图像、视频和大多数纹理的标准。 |
-| **Gamma2_2** | 以Gamma2.2加载纹理，这在HDR中使用立方体地图/环境地图时最需要。 |
-| **Linear** | 以Gamma 1.0加载纹理。 |
-| **Normal Map** | 使用一个特殊的内部程序来混合不同MipMap阶段之间的颜色，以产生正常化的Normal Vectors。这使得有可能获得清脆和正确的MipMaps。 |
+| Not a Color | 主要用于Roughness和Specular材料阶段，因为纹理的使用不需要任何Gamma转换，这些纹理通常是灰度的。使用这个选项加载的纹理将不会被触及或在内部转换为任何其他色彩空间，这在使用HDR-Render模式时非常重要。 |
+| sRGB | 定义了在sRGB色彩空间中使用纹理，这是图像、视频和大多数纹理的标准。 |
+| Gamma2_2 | 以Gamma2.2加载纹理，这在HDR中使用立方体地图/环境地图时最需要。 |
+| Linear | 以Gamma 1.0加载纹理。 |
+| Normal Map | 使用一个特殊的内部程序来混合不同MipMap阶段之间的颜色，以产生正常化的Normal Vectors。这使得有可能获得清脆和正确的MipMaps。 |
 | **Alpha** |  |
-| **Premultiply by File** | 默认属性，检测是否需要预乘法 |
-| **Preserve（保存）** | 将永远不会进行预乘 |
-| **Always** | 会强制进行预乘 |
+| Premultiply by File | 默认属性，检测是否需要预乘法 |
+| Preserve（保存） | 将永远不会进行预乘 |
+| Always | 会强制进行预乘 |
 
 **ResizeWidth**和**ResizeHeight**可以用来影响图像的大小。--------**这个属性在Texture Loader Node中**
 > 如果调整大小的属性被设置为自动，那么纹理就会被调整到最接近的2次方大小，如果这是显卡的要求。
