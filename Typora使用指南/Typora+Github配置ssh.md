@@ -26,7 +26,7 @@ git config --list
 cd ~/.ssh
 ```
 > 如果有,则显示如下。如果没有则不会显示这个文件夹
-![image-20210731165013560](https://cdn.jsdelivr.net/gh/Wutpeach/Notes/pic/image-20210731165013560.png)
+![image-20210731165013560](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108022031764.png)
 
 5. **生成密钥，输入如下命令行，再按3下回车**
 ```
@@ -43,7 +43,7 @@ cd ~/.ssh
 
 8. **打开Github --> Your repositories --> New**
 
-<img src="https://cdn.jsdelivr.net/gh/Wutpeach/Notes/pic/image-20210731173318826.png" alt="image-20210731173318826" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108022027456.png" alt="image-20210731173318826" style="width:70%;" />
 
 9. **克隆仓库到本地**
 
@@ -103,7 +103,7 @@ Picgo下载链接：[官网](https://molunerfinn.com/PicGo/)
 
 2. 打开github --> Settings --> Developer settings --> Personal access tokens --> Generate new token
 
-<img src="https://cdn.jsdelivr.net/gh/Wutpeach/Notes/pic/image-20210731181222069.png" alt="image-20210731181222069" style="zoom:80%;" />
+
 
 3. 创建完毕后复制token，粘贴进PicGO --> 图床设置 --> githubPlus --> token
 
@@ -116,7 +116,7 @@ Picgo下载链接：[官网](https://molunerfinn.com/PicGo/)
 - customUrl：自定义域名，建议使用`https:cdn.jsdelivr.net/gh/Github用户名/仓库名`
 - origin：默认为github就可以了
 
-![image-20210731181642920](https://cdn.jsdelivr.net/gh/Wutpeach/Notes/pic/image-20210731181642920.png)
+<img src="https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108022028079.png" alt="image-20210731181642920" style="width:80%;" />
 
 4. 一切填写完毕后可以打开Typora --> 文件 --> 偏好设置 --> 图片 --> 验证图片上传
 
@@ -132,4 +132,4 @@ Picgo下载链接：[官网](https://molunerfinn.com/PicGo/)
 
 3. 设置"复制到指定路径" --> 路径设置为X:\AAA\BBB\CCC\\${filename}
 
-   ![image-20210731182249502](https://cdn.jsdelivr.net/gh/Wutpeach/Notes/pic/image-20210731182249502.png)
+   ![image-20210731182249502](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108022028984.png)
