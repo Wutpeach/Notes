@@ -26,7 +26,7 @@ git config --list
 cd ~/.ssh
 ```
 > 如果有,则显示如下。如果没有则不会显示这个文件夹
-![image-20210731165013560](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108022031764.png)
+> ![image-20210731165013560](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108022031764.png)
 
 5. **生成密钥，输入如下命令行，再按3下回车**
 ```
@@ -103,7 +103,7 @@ Picgo下载链接：[官网](https://molunerfinn.com/PicGo/)
 
 2. 打开github --> Settings --> Developer settings --> Personal access tokens --> Generate new token
 
-
+<img src="https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108022027069.png" alt="image-20210731181642920" style="width:80%;" />
 
 3. 创建完毕后复制token，粘贴进PicGO --> 图床设置 --> githubPlus --> token
 
