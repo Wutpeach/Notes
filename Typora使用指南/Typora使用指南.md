@@ -234,7 +234,7 @@ Ctrl+T
 
 #### 便捷方法
 
-使用excel转html工具：[传送门]([No-Cruft Excel to HTML Table Converter (pressbin.com)](http://pressbin.com/tools/excel_to_html_table/index.html))
+使用excel转html工具：[传送门](http://pressbin.com/tools/excel_to_html_table/index.html)
 
 使用方法:[传送门](https://blog.csdn.net/demon119/article/details/106802308)
 
