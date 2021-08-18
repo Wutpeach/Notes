@@ -130,3 +130,52 @@ end
 
 ```
 
+### 多维数组小案例
+
+```lua
+--初始化数组
+Street = {};
+--在数组中写入一个数组1
+Street['杭州'] = 
+{
+    1,
+    2,
+    3,
+    4,
+    5
+};
+--在数组中再写入一个数组2
+Street['金华'] = 
+{
+    '测试一',
+    '测试二',
+    '测试三'
+};
+--最终表
+Street = 
+{
+    杭州 = {1,2,3,4,5},
+    金华 = {'测试一', '测试二', '测试三'}
+}
+--用for循环遍历杭州
+for k,v in ipairs(Street['杭州']) do
+    print(k,v)
+end
+--随机遍历杭州
+mth.randomseed(os.time()) --定义随机种子
+function CreatAdd (city) --定义CreatAdd函数
+    if Street[city].re == nil or Street[city].re == 0 then --在Street[city]数组中新添加一个re键值对，此时的re未nil值
+        Street[city].re = #Street[city] --将re键值对赋值为Street[city]的长度，#不会读取键值对，所以该值为5
+    end
+    local c = math.random(Street[city].re) --在1-5中随机取值并把值赋给c
+    local s = Street[city][c] --得到Street[city][随机值]中的值，比如4
+    Street[cicty][c] = Street[city][Street[city].re] --把数组第5位的值赋给第4位
+    Street[city][Street[city].re] = s --把数组第4位的值赋给第4位
+    Street[city].re = Street[city].re -1 --把数组的长度-1
+    return city..s
+end
+for i=1,5 do
+    print(CreatAdd('杭州'))
+end
+```
+
