@@ -184,7 +184,7 @@ C#的编译错误，不用管，没关系，不影响：)
 这个问题的触发条件是现场有多台设备，而且设备系统由一个PE盘刻录所导致的。
 
 1. 首先找到任务栏的服务图标，右键 --> Open Configuration Floder
-![image-20210825191717359](Ventuz版本区分与使用配置.assets/image-20210825191717359.png)
+![image-20210825192225310](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251922343.png)
 
 2. 在VMS文件夹下新建一个txt文本文档
 ![image-20210825191801774](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251918170.png)
