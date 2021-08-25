@@ -6,9 +6,9 @@
 
 我们可以在官网查阅到社区、核心、企业，3个版本的横向比对，同时页面下拉，可以发现一段PLE版的描述文字官网查询
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nNZoupicRBc3b5txK8xqDjjf8Lh5W844PBKEucgKiaFGCEPYHSgicDaZSA/640?wx_fmt=png)
+![image-20210824140615635](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251850814.png)
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9naTqAYEBb30UicRARtn2KPWOP2kzibiaVTTLKVR8woWcnicJrgwWNibldqtw/640?wx_fmt=png)
+![image-20210824140711244](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251851181.png)
 
 > 原型开发和学习版提供了与企业工作室相同的功能集，仅用于评估目的。为了确保它不被用于商业项目，输出结果是有水印的。用PLE保存的文件不能加载到任何其他版本。
 
@@ -28,8 +28,7 @@
 
 社区版 / 学习版的功能体验上与核心版基本无异，只有极少的限制，对于个人用户来说，这2个版本是再好不过的选择了，接下来我就重点分析2个版本的差异。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9ntaUMjUkyojaianrVA1SbnnQD29groGZHLpcs18p2K2tyoYB7AKJySug/640?wx_fmt=png)
-
+----
 
 | 社区版-COMMUNITY(推荐)                   | 说明                                                         |
 | ---------------------------------------- | ------------------------------------------------------------ |
@@ -83,25 +82,24 @@ Raydata是Ventuz的国内代理，目前官网有RAYDATA商业版、个人版、
 
 中文文本、显卡/音频输出、画布设置
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nuZRhaowek8oM8j77EEqGttT55WTcwLNXw9TJpYIgxShRxNkE6HfSBQ/640?wx_fmt=png)
+![image-20210824195416940](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251852865.png)
 
 ### 中文文本
 
 点击MultiTouch,Remoting4,Syste Culture后的加号，取一个喜欢的名字，咱开始设置中文文本。（如果想要在Ventuz里边打中文，那么这一步必不可少。）
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nlTSicsvS3TpRJhsN6WF48w1fUmj02WLOicl35q9RNlT2pVgFu0IsLunQ/640?wx_fmt=png)
+![image-20210824195718920](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251853645.png)
 
 点击EXTENDED(扩展)，看到Culture Setting这一栏，按照下图进行勾选
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nBXxstopboia5Hv8mCFoO3aLK5ye4oicuh01y6Kfja5OibSHDmjyLCNyaw/640?wx_fmt=png)
+![image-20210824203804428](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251853168.png)
 
 **2D Font:**高品质2D文本的质量是正常文本的2倍，对性能要求高一些。实际使用过程中，勾选与不勾选的差别不是很大，为了节省性能，我们取消勾选。
 
 **Culture:**选择文本格式化的Culture，默认中文即可。
 
 **Character Sets:**选择使用字体和字样时要使用的Unicode范围。具体如下：
-
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nl7kQWEJf8kJdfUyaVL4H4tf6CY3MPjkRQMmMIeVYibZnn8oMVbo2Y2g/640?wx_fmt=png)
+![image-20210824204322464](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251853371.png)
 
 ### 视频输出
 
@@ -109,11 +107,11 @@ Raydata是Ventuz的国内代理，目前官网有RAYDATA商业版、个人版、
 
 2. 默认停留在Video选项卡下，我们点击步骤1的[+Stream]，确认驱动为N卡(A卡)后点击OK确认 如果没有显示N/A卡，可以看'常见问题'下的解决方案
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9ntuAQPTS3DpJSCJ1mSxOAj66GbqyIw0p1CkScFpek1DtKolwicJCtgGw/640?wx_fmt=png)
+![image-20210825191349717](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251913679.png)
 
 3. 点开新建的Outputs选项卡，按照以下设置勾选
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nbbHnJAiawyjOC2lUvLk7JPWvC4N0ibP2fzlFeFk8xJSSU4PdWwOTtWJg/640?wx_fmt=png)
+![image-20210825191509948](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251915234.png)
 
 4. 下拉框内指定了几个帧率选项，可以依据自己显示器的最高帧率选择，默认NONE会使用显示器(显卡)所设定的帧速率 
 
@@ -143,7 +141,7 @@ Raydata是Ventuz的国内代理，目前官网有RAYDATA商业版、个人版、
 
 点开Audio选项卡，选择自己当前使用的音频输出设备（不清楚的可以点击任务栏的小喇叭看看是哪个设备）
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nriblIe2EmC1v5G8YkfBS9DicyoMpiaia6tfIfByQC8BaOiajibyaicJ7DdA5A/640?wx_fmt=png)
+![image-20210825191535256](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251915719.png)
 
 ### 画布设置
 
@@ -151,7 +149,7 @@ Raydata是Ventuz的国内代理，目前官网有RAYDATA商业版、个人版、
 
 (这里依据你的需求设置，我这么设置是因为我的显示器尺寸是1920X1080)
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nrwJSGjkq39pXclnCRFSMXyxU9VEBUylz5sQPdTicBHnRjoQmF6iaibumA/640?wx_fmt=png)
+![image-20210825191608631](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251916074.png)
 
 ## 常见问题
 
@@ -171,7 +169,7 @@ C#的编译错误，不用管，没关系，不影响：)
 请确认你的电脑系统是64位WIN10系统，并且版本在1607之上。你要是win7系统确实想装，可以下载一个证书(证书就不放了，推荐直接更新系统)
 
 ### 怎么关闭Checking for Online Content?
-![img](https://mmbiz.qpic.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nmPYwbuKoNdvYVLy8wPibBEzJgNRv5ibiaovOeyPuJCZgTcHhSHUoZ9ZLw/640?wx_fmt=png)
+![image-20210825191650633](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251916944.png)
 
 取消勾选，同时一些网络资源也会在你的项目列表中消失，不影响程序内部的节点使用和案例查阅（F1）
 
@@ -186,26 +184,19 @@ C#的编译错误，不用管，没关系，不影响：)
 这个问题的触发条件是现场有多台设备，而且设备系统由一个PE盘刻录所导致的。
 
 1. 首先找到任务栏的服务图标，右键 --> Open Configuration Floder
-
-![img](https://mmbiz.qlogo.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9n5OMkkcDnqcH2YlSVwtWibNlMgvRCLz5yAXo4NX0fsicVic46ERkBFUcBw/0?wx_fmt=png)
+![image-20210825191717359](Ventuz版本区分与使用配置.assets/image-20210825191717359.png)
 
 2. 在VMS文件夹下新建一个txt文本文档
-
-
-
-![img](https://mmbiz.qlogo.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9nRmspFn9DXmCHlxdzulHYO9uPy92lWe1hib3BxTicDe5icImO6QtycQhQA/0?wx_fmt=png)
+![image-20210825191801774](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251918170.png)
 
 3. 打开txt,任意输入内容，一定要独一无二的(推荐英文命名，写完后保存退出)
+![image-20210825191820112](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251918528.png)
 
-![img](https://mmbiz.qlogo.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9ntSoxFZWroOAvop0GwOFoJ8Ton9ibrdSM20FpRurFU8ZOUtn26bmdc0w/0?wx_fmt=png)
-
-4. 修改这个txt文本名为SystemID，同时删除后缀(这图有水印，凑合看...)
-
-![img](https://mmbiz.qlogo.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9niacU8v4ubIQBPOTXib6qxdn2mOg32kFxj0NSoxGMXsVFcFk5sfV9LTWw/0?wx_fmt=png)
+4. 修改这个txt文本名为SystemID，同时删除后缀
+![image-20210825191852836](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251918812.png)
 
 5. 打开Configuration,在Machine Identfication输入你刚才取的名字
-
-![img](https://mmbiz.qlogo.cn/mmbiz_png/C9uohSLsicrgjBI9uOo9C0XY0SRickmQ9npKPBkZvqvOEZ28rCQLfG0vXNYKh7BLgl0BKgzeibU5y7Vy00jVmSib8g/0?wx_fmt=png)
+![image-20210825191938317](https://cdn.jsdelivr.net/gh/Wutpeach/Notes_pic/pic/202108251919632.png)
 
 6. 保存退出，重启电脑，IP不蹦跶了
 
